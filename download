@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Environment secrets – NEVER commit real credentials
+backend/.env
+.env
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+*.swp
